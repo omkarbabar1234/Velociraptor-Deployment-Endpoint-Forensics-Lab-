@@ -37,8 +37,6 @@ This project reproduces a real SOC/DFIR workflow.
 
 ---
 
----
-
 ## ⚙️ Server Installation (Linux)
 
 ### ### Step 1 — Prepare the Environment
@@ -144,4 +142,49 @@ sudo systemctl status velociraptor_client.service
 
 ---
 
+### 🪟 Windows Client Deployment
 
+**Download Windows binary on server:**
+```
+wget https://github.com/Velocidex/velociraptor/releases/download/v0.73/velociraptor-v0.73.1-windows-amd64.exe
+```
+
+**Repack with client config:**
+```
+./velociraptor --config /opt/velociraptor/client.config.yaml \
+  config repack --exe velociraptor-v0.73.1-windows-amd64.exe \
+  /opt/velociraptor/client.config.yaml windows-client.exe
+```
+
+**Host file and download on Windows:**
+```
+sudo python3 -m http.server 9999
+# On Windows browser: http://<SERVER_IP>:9999
+```
+
+**Install on Windows (PowerShell as Admin):**
+```
+.\windows-client.exe service install
+```
+![Windows Client](screenshots/windows_client.png)
+
+---
+### 📊 Validation & GUI
+
+**Open the GUI:**
+```
+https://<SERVER_IP>:8889
+```
+**•	Login with admin credentials**
+**•	Verify client check-ins and host details**
+**•	Run VQL queries (example):**
+```
+SELECT * FROM pslist()
+```
+![GUI Dashboard](screenshots/gui_dashboard.png)
+
+---
+
+### ✅ Conclusion
+
+*This lab provides an end-to-end Velociraptor deployment for DFIR: server installation, client packaging (Linux & Windows), secure communication via WSS, VQL-based collection, and GUI validation. It’s perfect for SOC, DFIR, and Threat Hunting practice.*
