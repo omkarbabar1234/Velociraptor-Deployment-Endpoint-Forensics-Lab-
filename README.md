@@ -98,7 +98,7 @@ frontend:
   frontend_port: 8000
   gui_port: 8889
 ```
-![Config Update]()
+![Config Update](https://github.com/omkarbabar1234/Velociraptor-Deployment-Endpoint-Forensics-Lab-/blob/b3db680f017e5c991b7794fa727a41509282bcb3/Screenshot%202025-11-28%20134455.png)
 
 ---
 
@@ -115,7 +115,7 @@ frontend:
 sudo dpkg -i velociraptor-server_<version>_amd64.deb
 sudo systemctl status velociraptor_server.service
 ```
-![dpkg install](screenshots/dpkg_install.png)
+![dpkg install](https://github.com/omkarbabar1234/Velociraptor-Deployment-Endpoint-Forensics-Lab-/blob/b3db680f017e5c991b7794fa727a41509282bcb3/Screenshot%202025-11-28%20132741.png)
 
 ---
 ### 🐧 Linux Client Deployment
