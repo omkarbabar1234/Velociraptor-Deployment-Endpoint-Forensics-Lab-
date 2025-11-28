@@ -166,7 +166,7 @@ sudo python3 -m http.server 9999
 ```
 .\windows-client.exe service install
 ```
-![Windows Client](screenshots/windows_client.png)
+![Windows Client](https://github.com/omkarbabar1234/Velociraptor-Deployment-Endpoint-Forensics-Lab-/blob/b3951eb68771a5a5cf7b88cb69b668d7f7190fd7/screenshots/Screenshot%202025-11-28%20144010.png)
 
 ---
 ### 📊 Validation & GUI
@@ -176,12 +176,10 @@ sudo python3 -m http.server 9999
 https://<SERVER_IP>:8889
 ```
 **•	Login with admin credentials**
+
 **•	Verify client check-ins and host details**
-**•	Run VQL queries (example):**
-```
-SELECT * FROM pslist()
-```
-![GUI Dashboard](screenshots/gui_dashboard.png)
+
+![GUI dashboard](https://github.com/omkarbabar1234/Velociraptor-Deployment-Endpoint-Forensics-Lab-/blob/b3951eb68771a5a5cf7b88cb69b668d7f7190fd7/screenshots/Screenshot%202025-11-28%20144025.png)
 
 ---
 
