@@ -138,7 +138,9 @@ ssh user@client
 sudo dpkg -i /tmp/velociraptor_client_<version>.deb
 sudo systemctl status velociraptor_client.service
 ```
-![Linux Client](screenshots/linux_client.png)
+![Linux Client](https://github.com/omkarbabar1234/Velociraptor-Deployment-Endpoint-Forensics-Lab-/blob/a18ded513832481fc36bf86a286549fa7219e0da/Screenshot%202025-11-28%20135100.png)![Linux Client](https://github.com/omkarbabar1234/Velociraptor-Deployment-Endpoint-Forensics-Lab-/blob/a18ded513832481fc36bf86a286549fa7219e0da/Screenshot%202025-11-28%20140516.png)
+                    ![Linux Client](https://github.com/omkarbabar1234/Velociraptor-Deployment-Endpoint-Forensics-Lab-/blob/a18ded513832481fc36bf86a286549fa7219e0da/Screenshot%202025-11-28%20140557.png)
+
 
 ---
 
