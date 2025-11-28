@@ -1,7 +1,7 @@
 # ⭐ Velociraptor Deployment & Endpoint Forensics Lab
 *Complete SOC / DFIR project*
 
-![Project Banner](https://github.com/omkarbabar1234/Velociraptor-Deployment-Endpoint-Forensics-Lab-/blob/main/a1e8f366-5f04-4748-8ed7-ffa5470729cf.png)
+![Project Banner](https://github.com/omkarbabar1234/Velociraptor-Deployment-Endpoint-Forensics-Lab-/blob/6f380d0c5c627011529a225dba06652d2a195872/screenshots/a1e8f366-5f04-4748-8ed7-ffa5470729cf.png)
 
 ---
 
@@ -139,9 +139,7 @@ sudo dpkg -i /tmp/velociraptor_client_<version>.deb
 sudo systemctl status velociraptor_client.service
 ```
 ![Linux Client](https://github.com/omkarbabar1234/Velociraptor-Deployment-Endpoint-Forensics-Lab-/blob/a18ded513832481fc36bf86a286549fa7219e0da/Screenshot%202025-11-28%20135100.png)![Linux Client](https://github.com/omkarbabar1234/Velociraptor-Deployment-Endpoint-Forensics-Lab-/blob/a18ded513832481fc36bf86a286549fa7219e0da/Screenshot%202025-11-28%20140516.png)
-                    ![Linux Client](https://github.com/omkarbabar1234/Velociraptor-Deployment-Endpoint-Forensics-Lab-/blob/a18ded513832481fc36bf86a286549fa7219e0da/Screenshot%202025-11-28%20140557.png)
-
-
+                   
 ---
 
 ### 🪟 Windows Client Deployment
