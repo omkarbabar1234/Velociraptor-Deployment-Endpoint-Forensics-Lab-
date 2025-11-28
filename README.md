@@ -47,7 +47,7 @@ sudo mkdir -p /opt/velociraptor
 cd /opt/velociraptor
  ```
 
-![Step 1 — Prepare Environment](Screenshot 2025-11-28 125335.png)
+![Step 1 — Prepare Environment](https://github.com/omkarbabar1234/Velociraptor-Deployment-Endpoint-Forensics-Lab-/blob/78d4ec3ff222ffd374ad81f0484ded46872b8630/Screenshot%202025-11-28%20125335.png))
 
 ---
 ### Step 2 — Download Velociraptor Binary
