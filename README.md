@@ -47,7 +47,7 @@ sudo mkdir -p /opt/velociraptor
 cd /opt/velociraptor
  ```
 
-![Step 1 — Prepare Environment](https://github.com/omkarbabar1234/Velociraptor-Deployment-Endpoint-Forensics-Lab-/blob/78d4ec3ff222ffd374ad81f0484ded46872b8630/Screenshot%202025-11-28%20125335.png))
+![Step 1 — Prepare Environment](https://github.com/omkarbabar1234/Velociraptor-Deployment-Endpoint-Forensics-Lab-/blob/78d4ec3ff222ffd374ad81f0484ded46872b8630/Screenshot%202025-11-28%20125335.png)
 
 ---
 ### Step 2 — Download Velociraptor Binary
@@ -57,7 +57,7 @@ sudo mv velociraptor-v0.73.2-linux-amd64 velociraptor
 sudo chmod +x velociraptor
 ```
 
-![Step 2 — Download Binary](screenshots/step2.png)
+![Step 2 — Download Binary](https://github.com/omkarbabar1234/Velociraptor-Deployment-Endpoint-Forensics-Lab-/blob/ae7dfb54cd52aed66c69579ea049afb466c9a180/Screenshot%202025-11-28%20125539.png)
 
 ---
 ### Step 3 — Interactive Configuration
@@ -86,7 +86,7 @@ sudo /opt/velociraptor/velociraptor config generate -i
 •	Save as: server.config.yaml
 
 
-![Interactive Config](screenshots/interactive_setup.png)
+![Interactive Config](https://github.com/omkarbabar1234/Velociraptor-Deployment-Endpoint-Forensics-Lab-/blob/ae7dfb54cd52aed66c69579ea049afb466c9a180/Screenshot%202025-11-28%20125810.png)
 
 ---
 ### Step 4 — Update server.config.yaml
@@ -98,7 +98,7 @@ frontend:
   frontend_port: 8000
   gui_port: 8889
 ```
-![Config Update](screenshots/config_update.png)
+![Config Update]()
 
 ---
 
